@@ -1,284 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portfolio</title>
-    <!-- Boostrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <!-- MY css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body id="home">
-    <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
-      style="background-color: black"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">Jonathan A.G</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan A.G Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="home">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jonathan A.G</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <img src="img/IMG20230903161153-picsay.jpg" alt="Jonathan" class="rounded-circle img-thumbnail mb-3" width="200">
+    <h1 class="display-4">Jonathan Andrian Geofany</h1>
+    <p class="lead">Student | Indonesia Open University</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-dark text-light">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2>About Me</h2>
         </div>
       </div>
-    </nav>
-    <!-- Navbar end -->
-    <!-- Jumbotron start  -->
-    <section class="jumbotron text-center bright-text" style="color: white">
-      <img
-        src="img/IMG20230903161153-picsay.jpg"
-        alt="Jonathan"
-        width="200"
-        class="rounded-circle img-thumbnail"
-      />
-      <h1 class="display-4">Jonathan Andrian Geofany</h1>
-      <p class="lead">Student | Indonesia Open University</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,32L40,48C80,64,160,96,240,128C320,160,400,192,480,202.7C560,213,640,203,720,165.3C800,128,880,64,960,48C1040,32,1120,64,1200,85.3C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Jumbotron end -->
-
-    <!-- About Start -->
-    <section id="about">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col text-center mb-3">
-            <h2>About Me</h2>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <p>I am a student of Information Systems at Indonesia Open University, with experience in quality control and a passion for web development.</p>
         </div>
-        <div class="row justify-content-center fs-5 text-justify">
-          <div class="col-md-4">
-            <p>
-              I'm a student at Open University Indonesia, pursuing a degree in
-              Information Systems. With a background in quality control, I've
-              developed a keen eye for detail and a passion for problem-solving.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p>
-              My journey into the world of web development started as a personal
-              project. I've taught myself HTML, CSS, and Bootstrap 5, and I'm
-              excited about the endless possibilities they offer in creating
-              beautiful and functional websites.
-            </p>
-          </div>
+        <div class="col-md-4">
+          <p>I have learned HTML, CSS, Bootstrap, and JavaScript, and I love creating clean and functional websites with a minimalist touch.</p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#2b2929"
-          fill-opacity="1"
-          d="M0,160L30,170.7C60,181,120,203,180,208C240,213,300,203,360,176C420,149,480,107,540,112C600,117,660,171,720,197.3C780,224,840,224,900,202.7C960,181,1020,139,1080,133.3C1140,128,1200,160,1260,160C1320,160,1380,128,1410,112L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- About End-->
+    </div>
+  </section>
 
-    <!-- Projects start -->
-    <section id="Projects">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col mb-3" style="color: white">
-            <h2>My Projects</h2>
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text">Lestari Cafe Website using HTML, CSS, JS</p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/1.png"
-                class="card-img-top"
-                alt="website-lestari cafe"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Website Lestari Cafe using HTML, CSS, Javascript.
-                </p>
-              </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <p class="card-text">Business Website using HTML, CSS, JS</p>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/2.jpg"
-                class="card-img-top"
-                alt="website-lestari cafe"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Website for bussines using HTML, CSS, Javascript.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/3.jpg"
-                class="card-img-top"
-                alt="website-lestari cafe"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Website for education Cafe using HTML, CSS, Javascript.
-                </p>
-              </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/3.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <p class="card-text">Educational Cafe Website using HTML, CSS, JS</p>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,64L48,90.7C96,117,192,171,288,176C384,181,480,139,576,117.3C672,96,768,96,864,106.7C960,117,1056,139,1152,122.7C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Projects end-->
+    </div>
+  </section>
 
-    <!-- Contact start -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
+  <!-- Contact -->
+  <section id="contact" class="bg-dark text-light">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Thank You!</strong> Your message has sent.
-              <button type="button" class="btn-close "  data-bs-dismiss="alert" aria-label="Close" ></button>
-            </div>
-            <form name="submit-to-google-sheet">
-              <div class="mb-3">
-                <label for="email" class="form-label" >Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  aria-describedby="email"
-                  name="email"
-                />
-              </div>
-          
-              <div class="mb-3">
-                <label for="name" class="form-label">Long Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  aria-describedby="name"
-                  name="nama"
-                />
-              </div>
-          
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="alert alert-success d-none my-alert" role="alert">
+            <strong>Thank You!</strong> Your message has been sent.
+          </div>
+          <form name="submit-to-google-sheet">
             <div class="mb-3">
-              <label for="pesan" class="form-label" name="submit-to-google-sheet">Message</label>
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" name="nama">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Message</label>
               <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-kirim">Send</button>
-          </button>
-          <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-            Loading...
-          </button>
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm"></span> Loading...
+            </button>
           </form>
-          </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#black"
-          fill-opacity="1"
-          d="M0,160L48,186.7C96,213,192,267,288,266.7C384,267,480,213,576,202.7C672,192,768,224,864,240C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Contact end-->
+    </div>
+  </section>
 
-    <!-- footer start -->
-    <footer class="bg-black text-white text-center pb-5">
-      <p>
-        Created by
-        <a href="https://www.instagram.com/joe_nthn/" class="text-white fw-bold"
-          >Jonathan A.G</a
-        >
-      </p>
-    </footer>
-    <!-- footer end-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <form >
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>Created by <a href="https://www.instagram.com/joe_nthn/" class="text-white fw-bold">Jonathan A.G</a></p>
+  </footer>
 
-    
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbxIulTl1fNSvGMXvnQ4Uclxr2JjN_rdgWVjJ-wY8xlapSg9sMXE33oumSzIMDcDIwUc/exec'
-      const form = document.forms['submit-to-google-sheet'];
-      const btnKirim = document.querySelector('.btn-kirim');
-      const btnLoading = document.querySelector('.btn-loading');
-      const myAlert = document.querySelector('.my-alert');
-    
-      form.addEventListener('submit', e => {
-        e.preventDefault();
-        // Ketika tombol sumbit diklik
-        // Tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none')
-        btnKirim.classList.toggle('d-none')
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-            // Tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle('d-none')
-            btnKirim.classList.toggle('d-none')
-            // Tampilkan alert
-            myAlert.classList.toggle('d-none')
-            // Reset form
-            form.reset()
-            console.log('Success!', response)
-          })
-          .catch(error => console.error('Error!', error.message))
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/YOUR-SCRIPT-ID/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
 
-      })
-    </script>
-  </body>
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      btnLoading.classList.remove('d-none');
+      btnKirim.classList.add('d-none');
+
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          btnLoading.classList.add('d-none');
+          btnKirim.classList.remove('d-none');
+          myAlert.classList.remove('d-none');
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  </script>
+
+  <!-- Optional scroll effect -->
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('shadow', window.scrollY > 50);
+    });
+  </script>
+</body>
 </html>
